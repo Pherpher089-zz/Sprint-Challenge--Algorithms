@@ -27,3 +27,16 @@ def count_th(word):
 
 
 count_th("shithth")
+
+
+def dumb(n):
+    a = 0
+    c = 0
+    while (a < n * n * n):
+        c += 1
+        print(f"c: {c}")
+        a = a + n * n
+    return a
+
+
+dumb(6)
