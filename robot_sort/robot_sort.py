@@ -95,7 +95,6 @@ class SortingRobot:
         return self._light == "ON"
 
     def sort(self):
-        print(self._list)
         self.set_light_on()
         self.sort_right()
         if self.light_is_on():
@@ -107,7 +106,6 @@ class SortingRobot:
         self.sort()
 
     def sort_right(self):
-        print("sorting right")
         if self.can_move_right() == False:
             return
         else:
@@ -125,7 +123,6 @@ class SortingRobot:
             self.sort_right()
 
     def sort_left(self):
-        print("sorting left")
         if self.can_move_left() == False:
             return
         else:
