@@ -20,7 +20,7 @@ b)  sum = 0
         j *= 2
         sum += 1
 ```
-O(n^2)
+O(n log n)
 ```
 c)  def bunnyEars(bunnies):
       if bunnies == 0:
